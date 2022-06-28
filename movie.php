@@ -56,7 +56,7 @@ if(!empty($userData)){
 
 
 // Resgatar reviews do filme
-$alreadyReviwed
+$alreadyReviwed = false;
 
 
 ?>
@@ -127,7 +127,7 @@ $alreadyReviwed
                     </div>
                     <div class="col-md-9 author-details-container">
                         <h4 class="author-name">
-                            <a href="#">Matheus</a>
+                            <a href="<?=$BASE_URL?>profile.php">Matheus</a>
                         </h4>
                         <p>
                             <i class="fas fa-star"></i> 9

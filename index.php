@@ -16,7 +16,6 @@
 
     $comedyMovies = $movieDao->getMoviesByCategory("Comédia");
 
-    $userMovies = $movieDao->getMoviesByUserId(14);
 
     /*
         var_dump($userData);

@@ -4,8 +4,8 @@
   require_once("db.php");
   require_once("models/Movie.php");
   require_once("models/Message.php");
-  require_once("dao/UserDAO.php");
-  require_once("dao/MovieDAO.php");
+  require_once("dao/UserDao.php");
+  require_once("dao/MovieDao.php");
 
   $message = new Message($BASE_URL);
   $userDao = new UserDAO($conn, $BASE_URL);
