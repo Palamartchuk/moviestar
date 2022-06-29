@@ -46,7 +46,7 @@ var_dump($userMovies); */
                     <tr>
                         <td scope="row"><?= $userMoviesValues->id ?></td>
                         <td><a href="<?= $BASE_URL?>movie.php?id=<?= $userMoviesValues->id ?>" class="table-movie-title"><?= $userMoviesValues->title?></a></td>
-                        <td><i class="fas fa-star"></i> 9</td>
+                        <td><i class="fas fa-star"></i> <?=$userMoviesValues->rating?></td>
                         <td class="actions-column">
                             <a href="<?= $BASE_URL?>editmovie.php?id=<?= $userMoviesValues->id ?>" class="edit-btn">
                                 <i class="far fa-edit"></i>Editar
